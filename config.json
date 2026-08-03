@@ -2,8 +2,8 @@
   "_comment": "Central configuration for X-UI + Tor multi-country gateway. Every script (start.sh, panel-bootstrap.sh) reads this file via `jq` — edit here, not in the scripts.",
 
   "api": {
-    "_comment": "Optional external IP/country lookup API (Cloudflare Worker). Used only as an EXTRA verification source; the built-in providers in get_country_from_ip() are tried first because they are faster and more reliable.",
-    "base_url": "https://dry-thunder-684c.4j89drj49rd-14070.workers.dev",
+    "_comment": https://icy-water-87bd.mgka1354-45347-e1c.workersOptional external IP/country lookup API (Cloudflare Worker). Used only as an EXTRA verification source; the built-in providers in get_country_from_ip() are tried first because they are faster and more reliable.",
+    "base_url": "",
     "endpoints": {
       "tor_check": "/tor-check",
       "lookup": "/lookup",
