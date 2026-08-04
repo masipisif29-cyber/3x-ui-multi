@@ -3,7 +3,7 @@
 
   "api": {
     "_comment": https://icy-water-87bd.mgka1354-45347-e1c.workersOptional external IP/country lookup API (Cloudflare Worker). Used only as an EXTRA verification source; the built-in providers in get_country_from_ip() are tried first because they are faster and more reliable.",
-    "base_url": "",
+    "base_url": "https://icy-water-87bd.mgka1354-45347-e1c.workers.dev",
     "endpoints": {
       "tor_check": "/tor-check",
       "lookup": "/lookup",
